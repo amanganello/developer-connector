@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://devConnector:agmu3012@cluster0-a0w6q.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecretoken"
+}
