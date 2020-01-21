@@ -104,10 +104,10 @@ const ProfileSchema = new mongoose.Schema({
         linkedin: {
             type: String
         },
-        date: {
-            type: Date,
-            default: Date.now
-        }
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 });
 
