@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { SET_ALERT, REMOVE_ALERT } from '../actions/types';
 
 const initialState = [];
