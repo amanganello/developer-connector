@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { SET_ALERT, REMOVE_ALERT } from '../actions/types';
 
 const initialState = [];
@@ -13,4 +14,4 @@ export default function (state = initialState, action) {
         default:
             return state;
     }
-};
+}

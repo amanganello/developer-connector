@@ -132,7 +132,7 @@ router.put('/like/:id', auth, async (req, res) => {
 });
 
 //  @route      PUT api/posts/unlike/:id
-//  @desc       Like a post
+//  @desc       Unlike a post
 //  @access     Private
 router.put('/unlike/:id', auth, async (req, res) => {
     try {
@@ -186,7 +186,7 @@ router.post('/comments/:id',
                 user: req.user.id
             };
 
-            post.comments.unshift(newComment)
+            post.comments.unshift(newComment);
             await post.save();
 
             res.json(post.comments);
@@ -230,6 +230,6 @@ router.delete('/comments/:id/:comment_id', auth, async (req, res) => {
         console.error(error.message);
         res.status(500).send('Server Error');
     }
-})
+});
 
 module.exports = router;

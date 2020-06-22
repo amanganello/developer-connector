@@ -21,10 +21,10 @@ router.get('/', auth, async (req, res) => {
     }
 });
 
-//  @route      POST     api/auth
+//  @route      POST     api/login
 //  @desc       Authenticate user and get token
 //  @access     Public
-router.post('/', [
+router.post('/login', [
     check('email', 'Please include a valid email')
         .isEmail(),
     check('password',
