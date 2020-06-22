@@ -1,5 +1,4 @@
 import React from 'react';
-import NotFound from '../layouts/NotFound';
 import { Route, Switch } from 'react-router-dom';
 
 //Components
