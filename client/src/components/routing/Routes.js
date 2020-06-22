@@ -15,7 +15,7 @@ import Profile from '../profile/Profile';
 import Posts from '../posts/Posts';
 import PrivateRoute from '../routing/PrivateRoute';
 import Post from '../post/Post';
-import NotFound from '../layout/NotFound';
+import NotFound from '../layouts/NotFound';
 
 const Routes = () => {
     return (
